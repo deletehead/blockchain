@@ -1,5 +1,7 @@
 # Purpose
-This repo contains learning and research on blockchain & blockchain security. I saw [SEC554](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/) and was interested in taking it, but I'm cheap (either that or they're expensive). So I decided to reference their syllabus for my own (free) research. The syllabus was NOT my own, but they make it available for the world so I used it to target my own research.
+This repo contains learning and research on blockchain & blockchain security. I saw [SEC554](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/) and was interested in taking it, but I'm cheap (either that or they're expensive). So I decided to reference their syllabus for my own (free) research. 
+
+The syllabus was NOT my own, but they make it available for the world so I used it to target my own research. Furthermore, most of this is taken or rehashed information from online sources. I am not going to take the time to officially reference things since this is a personal project, but I will make heavy use of links to show where I got the info. For instance, I'll hyperlink a wiki article and then the info before/after will be my summary/notes/explanation of it.
 
 # Syllabus
 - [ ] 1. Blockchain Fundamentals
