@@ -21,7 +21,11 @@
 * [Hash function](https://en.wikipedia.org/wiki/Hash_function) -- "is any function that can be used to map data of arbitrary size to fixed-size values"
 * [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) -- "a mathematical algorithm that maps data of arbitrary size (often called the 'message') to a bit array of a fixed size (the 'hash value', 'hash', or 'message digest')"
 * [Difference between a hash function and a cryptographic hash function](https://security.stackexchange.com/questions/11839/what-is-the-difference-between-a-hash-function-and-a-cryptographic-hash-function) -- TL;DR a hash function is a general term for a function that maps data of any size to fixed size where a cryptographic hash function has specific properties. These properties include:
-  - Deterministic
+  - Deterministic (same input will always produce same output)
+  - Fast to compute it
+  - Infeasible (almost impossible or completely impossible) to reverse the hash
+  - Infeasible to get collisions
+  - Small change to an input (ex. one bit difference) will give a completely different hash output that cannot be anywhere near the original input
 
 ### Types of Cryptography
 
