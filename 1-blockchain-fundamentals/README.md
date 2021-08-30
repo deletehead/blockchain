@@ -13,6 +13,7 @@
   * In 1992, idea expanded to include Merkle trees
   * Invented in 2008 by Satashi Nakamoto with the introduction of Bitcoin
   * By August 2014, the ledger for bitcoin was 20GB, in 2020 it's over 200GB
+  ![](https://101blockchains.com/wp-content/uploads/2018/10/History_of_Blockchain_Technology.png)
 
 ### Types of distributed concensus
 * [Distributed concensus](https://www.geeksforgeeks.org/distributed-consensus-in-distributed-systems/) -- "A procedure to reach a common agreement in a distributed or decentralized multi-agent platform. It is important for the message passing system."
