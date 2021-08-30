@@ -3,9 +3,16 @@
 ## What is Blockchain?
 
 ### Definitions and Origins
-* [Blockchain](https://en.wikipedia.org/wiki/Blockchain) -- " a growing list of records, called blocks, that are linked together using cryptography." 
-* [History](https://www.blockchain-council.org/blockchain/a-detailed-history-of-blockchain-from-the-establishment-to-broad-adoption/) of [blockchain](https://101blockchains.com/history-of-blockchain-timeline/) -- Idea started in 1991
-* Invented in 2008 by Satashi Nakamoto with the introduction of Bitcoin
+* [Blockchain](https://en.wikipedia.org/wiki/Blockchain) -- "a growing list of records, called blocks, that are linked together using cryptography."
+  * each block is transaction data + timestamp + hash of previous block
+  * a distributed ledger, managed by a peer-to-peer network
+  * represented in a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree)
+  * the blockchain solves the [double spending](https://en.wikipedia.org/wiki/Double-spending) problem of cryptocurrencies, enabling decentralization (i.e. no need for a trusted 3rd party)
+* [History](https://www.blockchain-council.org/blockchain/a-detailed-history-of-blockchain-from-the-establishment-to-broad-adoption/) of [blockchain](https://101blockchains.com/history-of-blockchain-timeline/)
+  * Idea started in 1991, initially with an idea to create blocks that were cryptographically verified, timestamped, unalterable
+  * In 1992, idea expanded to include Merkle trees
+  * Invented in 2008 by Satashi Nakamoto with the introduction of Bitcoin
+  * By August 2014, the ledger for bitcoin was 20GB, in 2020 it's over 200GB
 
 ### Types of distributed concensus
 * [Distributed concensus](https://www.geeksforgeeks.org/distributed-consensus-in-distributed-systems/) -- "A procedure to reach a common agreement in a distributed or decentralized multi-agent platform. It is important for the message passing system."
